@@ -1,0 +1,133 @@
+.intro{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0416;
+}
+.intro-left{
+    flex: 1;
+}
+.intro-right{
+    flex:1;
+}
+.type{
+    width: 40px;
+    font-style:70px;
+}
+.intro-left-wrapper{
+    margin-top: 30px;
+
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.i-intro{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+.i-name{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.i-desc{
+    margin-top: 10px;
+
+}
+.resbtn{
+    margin-top: 20px;
+    padding:8px 20px  ;
+    background-color: #8549F3;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.i-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move{
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    /* 75%{
+        transform: translateY(-150px);
+    } */
+    /* 100%{
+        transform: translateY(-200px);
+    } */
+}
+
+.i-title-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8549F3;
+    display: flex;
+    align-items: center;
+}
+
+.i-desc{
+    color: #ffffff;
+
+}
+
+
+.intro-right{
+    margin-top: 30px;
+    margin-left: 40px;
+    /* border: 1px solid white; */
+    padding-left: 30px;
+}
+
+.img-first{
+    width: 80%;
+}
+
+
+/* @media screen and (max-width:480px) { */
+@media screen and  (min-width:768px) and (max-width:1023px){
+   
+    .intro{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1024px)  {
+    .intro{
+        flex-direction: column;
+    }
+    .intro-left-wrapper{
+        margin-top: 30px;
+    
+        padding: 50px;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media screen and  (min-width:340px) and (max-width:767px){
+   
+    .intro{
+        flex-direction: column;
+    }
+}

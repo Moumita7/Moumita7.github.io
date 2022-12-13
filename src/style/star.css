@@ -1,0 +1,64 @@
+.statsBox{
+    /* border: 2px solid red; */
+    display: flex; 
+     flex-direction: column; 
+     justify-content: center;
+    align-items: center;
+    background-color: #191327;
+    color: #ffffff;
+}
+.str{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+    /* border: 1px solid pink; */
+    gap: 10px;
+}
+.stats-3{
+    /* border: 2px solid red; */
+    padding: 20px;
+    box-shadow: rgba(141, 70, 204, 0.25) 0px 50px 100px -20px,
+    rgba(111, 34, 153, 0.3) 0px 30px 60px -30px,
+    rgba(215, 127, 241, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.stats-2{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    box-shadow: rgba(141, 70, 204, 0.25) 0px 50px 100px -20px,
+    rgba(111, 34, 153, 0.3) 0px 30px 60px -30px,
+    rgba(215, 127, 241, 0.35) 0px -2px 6px 0px inset;
+}
+.strr{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(141, 70, 204, 0.25) 0px 50px 100px -20px,
+    rgba(111, 34, 153, 0.3) 0px 30px 60px -30px,
+    rgba(215, 127, 241, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+
+}
+
+
+.st{
+    /* margin-bottom: 50px; */
+    /* margin-top: 10px; */
+    font-weight: 400px;
+    font-size: 35px;
+    color: #693ac0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+.strimg{
+    width: 80%;
+}

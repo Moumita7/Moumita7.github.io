@@ -1,0 +1,55 @@
+.con{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #0B0417;
+    color: #ffffff;
+  
+}
+.con>div{
+    /* border: 1px solid ; */
+    box-shadow: rgba(141, 70, 204, 0.25) 0px 50px 100px -20px, rgba(111, 34, 153, 0.3) 0px 30px 60px -30px, rgba(215, 127, 241, 0.35) 0px -2px 6px 0px inset;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.con_ico{
+    width: 10px;
+    margin-right: 10px;
+    color: #693ac0;
+}
+.conh{
+    font-weight: 400px;
+    font-size: 35px;
+    color: #693ac0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.condiv{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+   
+}
+.icon-colour{
+    margin-top: 10px;
+    font-size: 30px;
+    /* border: 1px solid pink; */
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
