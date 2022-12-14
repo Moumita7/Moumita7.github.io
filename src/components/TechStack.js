@@ -91,17 +91,17 @@ const TechStack = () => {
         <div className='alltools'>
        
             <div>
-            <h2>JavaScript</h2>
+            <h2>VS Code</h2>
 
                 <img className='tni' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" />
             </div>
             <div>
-            <h2>React</h2>
+            <h2>Git</h2>
 
                 <img className='tni' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" alt="" />
             </div>  
              <div>
-            <h2>HTML</h2>
+            <h2>Postman</h2>
 
                <img className='tni' src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="" />
             </div>  
