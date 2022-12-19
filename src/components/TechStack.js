@@ -2,7 +2,7 @@ import React from 'react'
 import "../style/techstack.css"
 const TechStack = () => {
   return (
-    <div className='t'>
+    <div className='t' id='techID'>
     <div>
     <h1 className='title-h'>Tech Stack</h1>
     <div className='main_tech'>

@@ -9,7 +9,7 @@ const Project = () => {
   return (
    
     <>
-    <div className='p'>
+    <div className='p' >
     <div>
      <div className='pp'>
       <h1>Projects</h1>

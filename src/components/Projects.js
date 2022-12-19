@@ -5,7 +5,7 @@ import "../style/project.css"
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projectID'>
     <h2 className='pro'>Projects</h2>
    <ProjectCard/>
     

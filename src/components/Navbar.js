@@ -1,17 +1,37 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
+import {Link} from "react-scroll"
+import {GiHamburgerMenu} from "react-icons/gi"
+import{RxCross2} from "react-icons/rx"
 import "../style/navbar.css"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    // const navCont = [{ to:"homeID", text: "HOME", id:1 }, { to:"aboutID", text:"ABOUT", id:2 }, { to:"skillsID", text:"SKILLS", id:3 }, { to:"projectsID", text:"PROJECTS", id:4 }, {to:"contactID", text:"CONTACT", id:5}, {to:"githubID", text:"GITHUB", id:6} ];
+
+
+  
+    const navCont = [{to:"homeID",text:"Home",id:1},{ to:"aboutID", text:"About", id:2 },{ to:"projectID", text:"ProjectCard", id:3 },{ to:"techID", text:"TechStack", id:4 } ,{ to:"contactID", text:"Contact", id:5 }];
     return (
       <div className="Navbar">
         <span className="nav-logo"> @MD</span>
         <div className={`nav-items ${isOpen && "open"}`}>
-          <a href="/home" >Home</a>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/projects">Resume</a>
-          <a href="/contact">Contact</a>
+
+          <div className="NavRow">
+          {
+                    navCont.map((ele) => {
+                        return (
+                            <Link key={ ele.id } className="nav-cont" to={ ele.to } spy={true} smooth={true} ><p>{ ele.text }</p></Link>
+                        )
+                    })
+                }
+            <button className='resbtn'><a style={{color:"white",textDecoration:"none",marginBottom:"10px"}} href='MoumitaDas.pdf' download="MoumitaDas.pdf">Resume</a></button>
+            <GiHamburgerMenu/>
+            {/* <RxCross2/> */}
+           
+        </div>
+
+       
+     
     
         </div>
         <div
@@ -27,6 +47,63 @@ const Navbar = () => {
 export default Navbar
 
 
+
+
+
+
+
+// import "../style/navbar.css"
+
+// import { useContext } from 'react';
+// import { ThemeContext } from '../context/ThemeContext';
+// import { Link } from 'react-scroll';
+// import { FaMoon, FaSun } from "react-icons/fa";
+// // import img from "../images/dp.jpg"
+
+
+// const Navbar = () => {
+//     const { Themes, currentTheme, handleChangeTheme } = useContext(ThemeContext);
+//     const navCont = [{ to:"homeID", text: "HOME", id:1 }, { to:"aboutID", text:"ABOUT", id:2 }, { to:"skillsID", text:"SKILLS", id:3 }, { to:"projectsID", text:"PROJECTS", id:4 }, {to:"contactID", text:"CONTACT", id:5}, {to:"githubID", text:"GITHUB", id:6} ];
+
+
+//     return (
+//         <>
+//         <div className="Navbar"  style={ currentTheme === "light" ? Themes.light.navbar : Themes.dark.navbar }>
+            
+//             <div className="NavRow">
+    
+//                 {
+//                     navCont.map((ele) => {
+//                         return (
+//                             <Link key={ ele.id } className="nav-cont" to={ ele.to } spy={true} smooth={true} ><p>{ ele.text }</p></Link>
+//                         )
+//                     })
+//                 }
+//                <div className="onlySmallScreen">Moumita Das</div>
+//                <div className="profilepic">
+//         <img src="https://avatars.githubusercontent.com/u/97180521?v=4" alt="mou" />
+//         <h3>Moumita Das</h3>
+//       </div>
+//             </div>
+            
+//             </div>
+
+
+
+
+//             <div className="theme-cont">
+//             <div style={ currentTheme === "light" ? Themes.light.themebtn : Themes.dark.themebtn } className="theme-btn" onClick={ handleChangeTheme }>
+//                   {
+//                       currentTheme === "light" ? <FaMoon/> : <FaSun/>
+//                   }
+//             </div>
+//             </div>
+        
+//         </>
+//     )
+// }
+
+// export default Navbar
 
 
 

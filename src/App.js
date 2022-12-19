@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About';
 import Calender from './components/Calender';
 import Contact from './components/Contact';
-import Intro from './components/Intro';
+import Intro from './components/Home';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
 import ProjectCard from './components/ProjectCard';

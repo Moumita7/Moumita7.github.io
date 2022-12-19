@@ -11,7 +11,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <div className="con">
+    <div className="con" id="contactID">
       <div>
         <h1 className="conh">Contact</h1>
         <div>
