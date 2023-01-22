@@ -63,6 +63,8 @@
   
     .Navbar > .nav-items > h3::before {
         background: transparent;
+        /* display: flex;
+        flex-direction: column; */
     }
   
     .Navbar > .nav-items.open {
@@ -110,6 +112,8 @@
     .nav-toggle.open > .bar {
         transform: translateX(-40px);
         background: transparent;
+
+      
     }
   
     .nav-toggle.open > .bar::before {
@@ -128,6 +132,7 @@
 .NavRow{
     /* border: 2px solid red; */
     display: flex;
+
     color: #ffffff;
     gap: 30px;
     margin-right: 40px;
@@ -138,9 +143,11 @@
 
 }
 
+
 .nav-cont{
     color: #fff;
     transition: 0.3s ease;
+    /* border: 3px solid red; */
 }
 .nav-cont:hover{
     color: #693ac0;
@@ -152,13 +159,34 @@
 
 
 
-/* @media screen and (max-width:1024px)  {
+@media screen and (max-width:1024px)  {
+    .NavRow{
+        /* border: 2px solid red; */
+        display: flex;
+    
+        color: #ffffff;
+        gap: 30px;
+        margin-right: 40px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        /* position: relative; */
+    
+    }
  
-} */
+}
 
 
 
 @media screen and  (min-width:340px){
+    .open>.NavRow{
+        display: flex;
+        /* flex-direction: column;  */
+         border: 2px solid bisque;
+        justify-content: end;
+        width: 50px;
+        margin-left: 85%;
+    }
    
   
     /* .nav-cont{

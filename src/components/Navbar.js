@@ -25,7 +25,7 @@ const Navbar = () => {
                     })
                 }
             <button className='resbtn'><a style={{color:"white",textDecoration:"none",marginBottom:"10px"}} href='MoumitaDas.pdf' download="MoumitaDas.pdf">Resume</a></button>
-            <GiHamburgerMenu/>
+            {/* <GiHamburgerMenu/> */}
             {/* <RxCross2/> */}
            
         </div>
