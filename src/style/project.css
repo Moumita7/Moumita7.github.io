@@ -250,7 +250,18 @@ margin-bottom: 30px;
     }
     @media screen and  (min-width:340px) and (max-width:767px){
 
-
+        .projects{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #0A0416;
+            height: 220vh;
+            color: #ffffff;
+       
+        }
         .container{
           grid-template-columns: repeat(1,1fr);
           grid-template-rows: repeat(4,80);
@@ -259,18 +270,9 @@ margin-bottom: 30px;
             margin-top: 30px;
             padding: 20px;
         margin: 30px;
+  
  
 
         }
-        .projects{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 20px;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            background-color: #0A0416;
-            height: 220vh;
-            color: #ffffff;
-        }
+    
         }

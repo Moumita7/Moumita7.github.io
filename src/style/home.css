@@ -130,4 +130,8 @@
     .intro{
         flex-direction: column;
     }
+    .i-intro{
+        margin-top: 50%;
+    }
+   
 }

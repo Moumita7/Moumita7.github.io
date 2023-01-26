@@ -2,6 +2,7 @@ import React from 'react'
 import "../style/home.css"
 import img from "../images/pic.png"
 import Typewriter from 'typewriter-effect';
+import { Heading } from '@chakra-ui/react';
 
 const Home = () => {
   return (
@@ -18,9 +19,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="i-desc">
-            <h2>
+        
+            <Heading as="h3" fontWeight={"small"}>
             I am very passionate to create Interactive websites.
-            </h2>
+            </Heading>
             <button className='resbtn'><a style={{color:"white",textDecoration:"none"}} href='MoumitaDas.pdf' download="MoumitaDas.pdf">Resume</a></button>
 
             </div>
