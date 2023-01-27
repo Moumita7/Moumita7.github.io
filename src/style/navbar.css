@@ -30,7 +30,15 @@
     margin-right: 40px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     cursor: pointer;
+    /* border: 1px solid red; */
+
+}
+.resbtn{
+    /* border: 1px solid red; */
+    margin-bottom: 16px;
+
 
 }
 
