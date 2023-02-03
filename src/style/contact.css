@@ -42,14 +42,21 @@
     padding: 10px;
    
 }
-.icon-colour{
+/* .icon-colour{
     margin-top: 10px;
     font-size: 30px;
-    /* border: 1px solid pink; */
-    background-color: #fff;
+    border: 1px solid pink;
+    background-color: rgb(26, 20, 20);
     padding: 8px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+@media screen and  (min-width:340px) and (max-width:767px){
+    .contact_m{
+        display: flex;
+        flex-direction: column;
+    }
 }
