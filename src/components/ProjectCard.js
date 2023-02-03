@@ -5,7 +5,7 @@ import fitness from "../images/fitness.jpeg"
 import netflix from "../images/netflix.jpeg"
 
 
-import "../style/project.css"
+// import "../style/project.css"
 import { useNavigate} from "react-router-dom"
 
 

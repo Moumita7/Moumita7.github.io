@@ -1,6 +1,6 @@
 .t {
-  height: 150vh;
-  /* border:  1px solid red; */
+  height: auto;
+  /* border:  3px solid red; */
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -16,7 +16,7 @@
   align-items: center;
   /* justify-content: center; */
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
 }
 .t > div > h1 {
   display: flex;
@@ -73,6 +73,7 @@
 .fni {
   width: 80px;
   height: 70%;
+  /* height: auto; */
   margin: 5px;
 }
 
@@ -155,6 +156,7 @@
 .tni {
   width: 80px;
   height: 70%;
+  
   margin: 5px;
 }
 
@@ -227,7 +229,7 @@
     grid-template-rows: repeat(2, auto);
   }
   .t {
-    height: 180vh;
+    height: auto;
 
     display: flex;
  
@@ -244,7 +246,7 @@
     grid-template-rows: repeat(2, auto);
   }
   .t {
-    height: 190vh;
+    height: auto;
 
     display: flex;
  
