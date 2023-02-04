@@ -94,7 +94,7 @@
 
 
 
-import { Box, Center, Flex, Heading, Image, Link } from '@chakra-ui/react'
+import { Box, Center, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import React from 'react'
 
 import "../style/contact.css";
@@ -120,7 +120,7 @@ const Contact = () => {
                <Box border={"3px solid black"}  bgColor="#6A3BC0" borderRadius={"50%"} p="1">
                <Image src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg' w="10"/>
                </Box>
-               <Link pl="30"  href="https://github.com/Moumita7">https://github.com/Moumita7</Link>
+               <Link pl="30"  href="https://github.com/Moumita7"><Text color={"white"}>https://github.com/Moumita7</Text></Link>
 
                </Box>
       
@@ -132,7 +132,7 @@ const Contact = () => {
 
                <Image src='https://www.svgrepo.com/download/108614/linkedin.svg' w="10"/>
                </Box>
-               <Link pl="30"  href="https://www.linkedin.com/in/moumita-das07/">https://www.linkedin.com/in/moumita-das07/</Link>
+               <Link pl="30"  href="https://www.linkedin.com/in/moumita-das07/"><Text color={"white"}>https://www.linkedin.com/in/moumita-das07/</Text></Link>
 
                </Box>
 
@@ -144,7 +144,7 @@ const Contact = () => {
 
                <Image src='https://www.svgrepo.com/show/131843/big-twitter-logo.svg' w="10"/>
                </Box>
-               <Link pl="30"  href="https://twitter.com/Moumita86952918">https://twitter.com/Moumita86952918</Link>
+               <Link pl="30"  href="https://twitter.com/Moumita86952918"><Text color={"white"}>https://twitter.com/Moumita86952918</Text></Link>
 
                </Box>
 

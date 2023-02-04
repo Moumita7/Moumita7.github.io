@@ -73,21 +73,6 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 
 // const NavLink = ({ children }) => (
 
-
-
-//   <Link
-//     px={2}
-//     py={1}
-//     rounded={'md'}
-//     _hover={{
-//       textDecoration: 'none',
-//       bg: useColorModeValue('gray.200', 'gray.700'),
-//     }}
-//     href={'#'}>
-//     {children}
-//   </Link>
-// );
-
 export default function Navbar () {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -104,25 +89,9 @@ export default function Navbar () {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          {/* <HStack spacing={80} alignItems={'center'} display="flex" justifyContent={"flex-end"} fontWeight={"bold"} border={"2px solid red"}>
-          <Link activeClass="active"  to="home" spy={true} smooth={true} offset={50} duration={1000} id="name" className="italic text-slate-300">Moumita</Link>
-            <HStack  
-            fontSize={"18px"}
-              id="divlink"
-              as={'nav'}
-              spacing={30}
-              display={{ base: 'none', md: 'flex' }}>
-            <Link className="text-slate-500 px-2 py-2  cursor-pointer" activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={1500} ><Text color={"white"}> Home</Text> </Link>
-            <Link className="text-slate-500 px-2 py-2  cursor-pointer" activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={1500}><Text color={"white"}>About</Text></Link>
-            <Link className="text-slate-500 px-2 py-2  cursor-pointer" activeClass="active" to="skills" spy={true} smooth={true} offset={50} duration={1500}><Text color={"white"}>Skills</Text></Link>
-            <Link className="text-slate-500 px-2 py-2  cursor-pointer" activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={1500}><Text color={"white"}>Projects</Text></Link>
-            <Link className="text-slate-500 px-2 py-2  cursor-pointer" activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={1500}><Text color={"white"}>Contact</Text></Link>
-      
-            </HStack>
-            
-          </HStack> */}
+  
           <Flex justifyContent={"space-between"}  flex={90}>
-            <Heading>Moumuta</Heading>
+            <Heading color={"white"}>Moumuta</Heading>
             <HStack
           
             
