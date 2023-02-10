@@ -1,6 +1,7 @@
 import React from 'react'
 import "../style/home.css"
 import img from "../images/pic.png"
+import { Button } from '@chakra-ui/react'
 // import Typewriter from 'typewriter-effect';
 // import { Heading } from '@chakra-ui/react';
 
@@ -25,8 +26,10 @@ const Home = () => {
             I am very passionate to create Interactive websites.
             {/* </Heading> */}
             </h3>
-            <button className='resbtn'><a style={{color:"white",textDecoration:"none"}} href='MoumitaDas.pdf' download="MoumitaDas.pdf">Resume</a></button>
-
+            {/* <button className='resbtn'><a style={{color:"white",textDecoration:"none"}} href='MoumitaDas.pdf' download="MoumitaDas.pdf">Resume</a></button> */}
+            <Button mt="10px"  color={"white"} bg=" #693ac0" alignItems="center" pt="10px" onClick={() =>window.open(
+                      "https://drive.google.com/file/d/14YOuTrCyX6ayfn7PeyO_2kLxGa8l7PK_/view?usp=sharing")}><a style={{color:"white",textDecoration:"none",marginBottom:"10px"}} href='MoumitaDas.pdf' download="MoumitaDas.pdf">Resume</a>
+        </Button>
             </div>
             
 
