@@ -12,7 +12,6 @@ const AllRoutes = () => {
           <Route path="/" exact component={NavBar} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
-          {/* <Route path="/resume" component={Resume} /> */}
           <Route path="/contact" component={Contact} />
         </Routes>
     </div>
