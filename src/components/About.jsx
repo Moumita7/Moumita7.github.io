@@ -4,7 +4,9 @@
 
 // import { Heading, Text } from '@chakra-ui/react'
 import React from 'react'
-import img from "../images/dp.jpg"
+// import img from "../images/dp.jpg"
+import img from "../images/ddp.png"
+
 import "../style/about.css"
 
 
